@@ -34,4 +34,4 @@ Modify 'wazuh_manager.conf' (located in single-node/config/wazuh_cluster or mult
         </integration>
       ...
 
-Note: Log level in my ossec.conf is 3 - I filtered out CIS/SCA and other items as defined in the script. Custom overrides (formatting) for specific Sharepoint and Office365 alerts are also coded in the script.
+Note: Log level in my ossec.conf is 3 - I filtered out CIS/SCA and other items as defined in the script. Custom overrides (formatting) for specific Sharepoint and Office365 alerts are also coded in the script. Don't forget to update 'CHAT_ID' in the script with your Telegram userID.
