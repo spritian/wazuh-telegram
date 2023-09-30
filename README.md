@@ -9,7 +9,7 @@ Create a new 'Dockerfile':
     FROM wazuh/wazuh-manager:4.3.9
     RUN apt update && apt install pip -y && pip install requests
 
-Modify 'wazuh_manager.conf' (either single-node/config/wazuh_cluster or multi-node/config/wazuh_cluster) and insert the following block (be sure to replace <YOURBOTID> with your bot ID):
+Modify 'wazuh_manager.conf' (located in single-node/config/wazuh_cluster or multi-node/config/wazuh_cluster) and insert the following block (be sure to replace <YOURBOTID> with your bot ID):
 
     <ossec_config>
       <global>
